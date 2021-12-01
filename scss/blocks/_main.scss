@@ -1,0 +1,141 @@
+.calc {
+  width: 414px;
+  height: 596px;
+  background: #001E34;
+  margin: 30px auto;
+  border-radius: 5px;
+
+  &__inp-sec {
+    width: 100%;
+    height: 170px;
+
+  }
+  &__input {
+    width: 100%;
+    height: 90px;
+    color: #FFFFFF;
+    background-color: #001E34;
+    margin-top: 80px;
+    font-size: 54px;
+
+    &::placeholder {
+      font-size: 54px;
+      padding: 20px 0;
+    }
+  }
+
+  &__numbers {
+    width: 512px;
+    height: 425px;
+    margin: 0 auto;
+    margin-left: -100px;
+  }
+
+  &__btn {
+    background: #002B4A;
+    border: 2px solid #001E34;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 33px;
+    color: #FFFFFF;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: #002b4a9f;
+    }
+
+    &:active {
+      
+    }
+  }
+
+  &__functoin {
+    color: #FFA800;
+    font-size: 30px;
+
+  }
+}
+.parent {
+}
+.div1 {
+}
+.div2 {
+}
+.div3 {
+}
+.div4 {
+}
+.div5 {
+}
+.div6 {
+}
+.bi {
+}
+.bi-percent {
+}
+.div7 {
+}
+.div8 {
+}
+.div9 {
+}
+.div10 {
+}
+.div11 {
+}
+.div12 {
+}
+.div13 {
+}
+.div14 {
+}
+.div15 {
+}
+.div16 {
+}
+.bi-backspace {
+}
+.div17 {
+}
+.div18 {
+}
+.div19 {
+  background-color: #FFA800;
+  color: #FFFFFF;
+
+  &:hover {
+    background-color: #ffaa00bc;
+  }
+}
+
+
+
+.parent {
+  
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+  
+.div1 { grid-area: 1 / 2 / 2 / 3; }
+.div2 { grid-area: 2 / 2 / 3 / 3; }
+.div3 { grid-area: 3 / 2 / 4 / 3; }
+.div4 { grid-area: 4 / 2 / 5 / 3; }
+.div5 { grid-area: 5 / 2 / 6 / 3; }
+.div6 { grid-area: 1 / 3 / 2 / 4; }
+.div7 { grid-area: 2 / 3 / 3 / 4; }
+.div8 { grid-area: 3 / 3 / 4 / 4; }
+.div9 { grid-area: 4 / 3 / 5 / 4; }
+.div10 { grid-area: 5 / 3 / 6 / 4;}
+.div11 { grid-area: 1 / 4 / 2 / 5;}
+.div12 { grid-area: 2 / 4 / 3 / 5;}
+.div13 { grid-area: 3 / 4 / 4 / 5;}
+.div14 { grid-area: 4 / 4 / 5 / 5;}
+.div15 { grid-area: 5 / 4 / 6 / 5;}
+.div16 { grid-area: 1 / 5 / 2 / 6;}
+.div17 { grid-area: 2 / 5 / 3 / 6;}
+.div18 { grid-area: 3 / 5 / 4 / 6;}
+.div19 { grid-area: 4 / 5 / 6 / 6;}
