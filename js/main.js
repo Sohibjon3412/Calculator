@@ -63,7 +63,9 @@ elUch.addEventListener('click', () => {
   elInp.value += 3;
 })
 elQoldiq.addEventListener('click', () => {
-  elInp.value += ".";
+  if(elInp.value.slice(-1) != "-" && elInp.value.slice(-1) != "*" && elInp.value.slice(-1) != "/" && elInp.value.slice(-1) != "+" && elInp.value.slice(-1) != "."){
+    elInp.value += ".";
+  }
 })
 elBackspace.addEventListener('click', () => {
   elInp.value = elInp.value.slice(0,-1);
@@ -79,5 +81,8 @@ elQoshuv.addEventListener('click', () => {
   }
 })
 elTeng.addEventListener('click', () =>  {
-  elInp.value = eval(elInp.value);
+  if(elInp.value.slice(-1) != "-" && elInp.value.slice(-1) != "" && elInp.value.slice(-1) != "*" && elInp.value.slice(-1) != "/" && elInp.value.slice(-1) != "+" && elInp.value.slice(-1) != "="){
+    elInp.value = eval(elInp.value);
+  }
+  
 })
